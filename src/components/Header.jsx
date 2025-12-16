@@ -26,27 +26,27 @@ function Header() {
 
         {/* Navigation ở giữa */}
         <nav className="nav-center">
-          <a href="#concept">Bản chất</a>
+          <a href="#concept">Quan điểm</a>
           <a href="#structure">Cấu trúc</a>
           <a href="#origin">Nguồn gốc</a>
           <a href="#characteristics">Tính chất</a>
           <a href="#principles">Nguyên tắc</a>
-          <a href="#vietnam">Việt Nam</a>
+          <a href="#vietnam">Tôn giáo ở VN</a>
         </nav>
 
         {/* FlipBook button bên phải */}
         <div className="header-right">
-          <button 
+          <button
             className="mobile-menu-btn"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
-            <span className={`hamburger ${isMobileMenuOpen ? 'active' : ''}`}>
+            <span className={`hamburger ${isMobileMenuOpen ? "active" : ""}`}>
               <span></span>
               <span></span>
               <span></span>
             </span>
           </button>
-          
+
           <button className="flipbook-btn">
             <span className="flipbook-icon">📖</span>
             <span className="flipbook-text">FlipBook</span>
@@ -56,13 +56,25 @@ function Header() {
       </div>
 
       {/* Mobile Navigation */}
-      <div className={`mobile-nav ${isMobileMenuOpen ? 'open' : ''}`}>
-        <a href="#concept" onClick={() => setIsMobileMenuOpen(false)}>Bản chất</a>
-        <a href="#structure" onClick={() => setIsMobileMenuOpen(false)}>Cấu trúc</a>
-        <a href="#origin" onClick={() => setIsMobileMenuOpen(false)}>Nguồn gốc</a>
-        <a href="#characteristics" onClick={() => setIsMobileMenuOpen(false)}>Tính chất</a>
-        <a href="#principles" onClick={() => setIsMobileMenuOpen(false)}>Nguyên tắc</a>
-        <a href="#vietnam" onClick={() => setIsMobileMenuOpen(false)}>Việt Nam</a>
+      <div className={`mobile-nav ${isMobileMenuOpen ? "open" : ""}`}>
+        <a href="#concept" onClick={() => setIsMobileMenuOpen(false)}>
+          Quan điểm
+        </a>
+        <a href="#structure" onClick={() => setIsMobileMenuOpen(false)}>
+          Cấu trúc
+        </a>
+        <a href="#origin" onClick={() => setIsMobileMenuOpen(false)}>
+          Nguồn gốc
+        </a>
+        <a href="#characteristics" onClick={() => setIsMobileMenuOpen(false)}>
+          Tính chất
+        </a>
+        <a href="#principles" onClick={() => setIsMobileMenuOpen(false)}>
+          Nguyên tắc
+        </a>
+        <a href="#vietnam" onClick={() => setIsMobileMenuOpen(false)}>
+          Tôn giáo ở VN
+        </a>
       </div>
     </header>
   );

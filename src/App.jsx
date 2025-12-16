@@ -370,13 +370,14 @@ function App() {
                       alt={item.title}
                       className="policy-image"
                       onError={(e) => {
+                        console.log(`Lỗi tải ảnh: ${item.image}`);
                         e.target.style.display = 'none';
                         e.target.nextSibling.style.display = 'flex';
                       }}
                     />
                     <div className="card-image-placeholder" style={{ display: 'none' }}>
-                      <span className="placeholder-icon">🖼️</span>
-                      <span className="placeholder-text">Hình ảnh</span>
+                      <span className="placeholder-icon">📋</span>
+                      <span className="placeholder-text">{item.title}</span>
                     </div>
                   </div>
                 )}

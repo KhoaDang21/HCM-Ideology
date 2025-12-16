@@ -3,22 +3,22 @@
 :root {
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: #1a1a1a;
-  background-color: #faf8f5;
+  background-color: #ffffff;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  /* Religious theme colors */
-  --gold: #d4af37;
-  --deep-gold: #b8941f;
-  --burgundy: #8b1538;
-  --deep-burgundy: #6b1028;
-  --cream: #faf8f5;
-  --warm-white: #fefdfb;
-  --sage: #9caf88;
+  /* Màu thống nhất với App.css */
+  --gold: #ffd700; /* vàng gold chuẩn */
+  --deep-gold: #d4af37; /* vàng đậm */
+  --burgundy: #c41e3a; /* đỏ Việt Nam chuẩn */
+  --deep-burgundy: #9b1c2c; /* đỏ đậm */
+  --cream: #fff9f0; /* trắng kem nhẹ */
+  --warm-white: #fefefe; /* trắng ấm */
+  --sage: #9caf88; /* giữ nguyên màu xanh nhẹ */
   --deep-sage: #7a8f6b;
-  --charcoal: #2c2c2c;
-  --soft-gray: #f5f3f0;
+  --charcoal: #1a1a1a; /* đen đậm hơn */
+  --soft-gray: #f8f8f8; /* xám nhẹ hơn */
 }
 
 * {
@@ -31,7 +31,7 @@ html {
 
 body {
   margin: 0;
-  background: linear-gradient(135deg, var(--cream) 0%, #f8f6f2 100%);
+  background: linear-gradient(135deg, var(--warm-white) 0%, var(--cream) 100%);
   overflow-x: hidden;
 }
 
