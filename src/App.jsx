@@ -55,44 +55,47 @@ function App() {
       <section className="panel" id="concept">
         <div className="section-head animate-on-scroll">
           <div className="eyebrow">
-            I. QUAN ĐIỂM CỦA CHỦ NGHĨA MÁC - LÊNIN VỀ TÔN GIÁO
+            I. TƯ TƯỞNG HỒ CHÍ MINH VỀ ĐỘC LẬP DÂN TỘC
           </div>
-          <h2>A. Bản chất, nguồn gốc và tính chất của tôn giáo</h2>
+          <h2>A. Vấn đề độc lập dân tộc</h2>
           <p>
-            Tôn giáo là một hình thái ý thức xã hội phản ánh hiện thực khách
-            quan dưới dạng "phản ánh hư ảo". Con người sáng tạo ra tôn giáo để
-            tìm kiếm ý nghĩa, che chở tinh thần, rồi lại chịu sự chi phối của
-            nó.
+            Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm của mọi dân
+            tộc. Hồ Chí Minh khẳng định độc lập dân tộc là quyền tự nhiên, khách
+            quan của mọi dân tộc, đồng thời phải gắn liền với tự do, hạnh phúc
+            của nhân dân.
           </p>
         </div>
         <div className="grid two">
           <div className="card deep animate-on-scroll">
-            <div className="tagline">Góc độ triết học</div>
-            <h3>Phản ánh hư ảo</h3>
+            <div className="tagline">Tuyên ngôn Độc lập 1945</div>
+            <h3>Quyền thiêng liêng của dân tộc</h3>
             <p>
-              "Tất cả mọi tôn giáo chẳng qua chỉ là sự phản ánh hư ảo vào trong
-              đầu óc con người của những lực lượng ở bên ngoài chi phối cuộc
-              sống hằng ngày của họ, sự phản ánh mà ở đó các lực lượng trần thế
-              mang hình thức các lực lượng siêu trần thế." — Ph. Ăngghen
+              "Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thực đã
+              thành một nước tự do và độc lập. Toàn thể dân tộc Việt Nam quyết
+              đem tất cả tinh thần và lực lượng, tính mạng và của cải để giữ
+              vững quyền tự do và độc lập ấy." — Hồ Chí Minh
             </p>
           </div>
           <div className="card animate-on-scroll">
-            <div className="tagline">Góc độ thực thể xã hội</div>
-            <h3>Các tiêu chí cấu thành</h3>
+            <div className="tagline">Đặc trưng độc lập dân tộc</div>
+            <h3>Các yếu tố cấu thành</h3>
             <ul className="bullet-list">
               <li>
-                Niềm tin sâu sắc vào đấng siêu nhiên, tối cao, thần linh để tôn
-                thờ.
+                Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm của mọi
+                dân tộc.
               </li>
               <li>
-                Hệ thống giáo thuyết: giáo lý, giáo luật, lễ nghi phản ánh thế
-                giới quan, nhân sinh quan, đạo đức.
+                Độc lập dân tộc gắn liền với tự do, hạnh phúc của nhân dân.
               </li>
-              <li>Hệ thống cơ sở thờ tự.</li>
               <li>
-                Tổ chức nhân sự điều hành việc đạo (chức sắc, nhà tu hành).
+                Độc lập phải là nền độc lập thật sự, hoàn toàn và triệt để.
               </li>
-              <li>Tập hợp tín đồ đông đảo, tự nguyện tin theo.</li>
+              <li>
+                Độc lập dân tộc gắn liền với thống nhất và toàn vẹn lãnh thổ.
+              </li>
+              <li>
+                Con đường cách mạng giải phóng dân tộc theo cách mạng vô sản.
+              </li>
             </ul>
           </div>
         </div>
@@ -100,8 +103,8 @@ function App() {
 
       <section className="panel" id="structure">
         <div className="section-head animate-on-scroll">
-          <div className="eyebrow">Cấu trúc</div>
-          <h2>5 yếu tố của một tôn giáo</h2>
+          <div className="eyebrow">Đặc trưng</div>
+          <h2>Quan điểm về độc lập dân tộc</h2>
         </div>
         <div className="grid five">
           {structure.map((item, index) => (
@@ -112,16 +115,19 @@ function App() {
             >
               {item.image && (
                 <div className="card-image-wrapper">
-                  <img 
-                    src={item.image} 
+                  <img
+                    src={item.image}
                     alt={item.title}
                     className="card-image"
                     onError={(e) => {
-                      e.target.style.display = 'none';
-                      e.target.nextSibling.style.display = 'flex';
+                      e.target.style.display = "none";
+                      e.target.nextSibling.style.display = "flex";
                     }}
                   />
-                  <div className="card-image-placeholder" style={{ display: 'none' }}>
+                  <div
+                    className="card-image-placeholder"
+                    style={{ display: "none" }}
+                  >
                     <span className="placeholder-icon">🖼️</span>
                     <span className="placeholder-text">Hình ảnh</span>
                   </div>
@@ -137,11 +143,13 @@ function App() {
 
       <section className="panel" id="origin">
         <div className="section-head animate-on-scroll">
-          <div className="eyebrow">Nguồn gốc</div>
-          <h2>Vì sao tôn giáo hình thành?</h2>
+          <div className="eyebrow">B. Về cách mạng giải phóng dân tộc</div>
+          <h2>Con đường cách mạng vô sản</h2>
           <p>
-            Chủ nghĩa Mác - Lênin chỉ ra 3 nguồn gốc đan xen: kinh tế - xã hội,
-            nhận thức và tâm lý.
+            Muốn giải phóng dân tộc thành công phải đi theo con đường cách mạng
+            vô sản, kết hợp độc lập dân tộc với chủ nghĩa xã hội. Cách mạng phải
+            do Đảng Cộng sản lãnh đạo và dựa trên sức mạnh của khối đại đoàn kết
+            toàn dân tộc.
           </p>
         </div>
         <div className="grid three">
@@ -153,16 +161,19 @@ function App() {
             >
               {item.image && (
                 <div className="card-image-wrapper">
-                  <img 
-                    src={item.image} 
+                  <img
+                    src={item.image}
                     alt={item.title}
                     className="card-image"
                     onError={(e) => {
-                      e.target.style.display = 'none';
-                      e.target.nextSibling.style.display = 'flex';
+                      e.target.style.display = "none";
+                      e.target.nextSibling.style.display = "flex";
                     }}
                   />
-                  <div className="card-image-placeholder" style={{ display: 'none' }}>
+                  <div
+                    className="card-image-placeholder"
+                    style={{ display: "none" }}
+                  >
                     <span className="placeholder-icon">🖼️</span>
                     <span className="placeholder-text">Hình ảnh</span>
                   </div>
@@ -181,8 +192,10 @@ function App() {
 
       <section className="panel" id="characteristics">
         <div className="section-head animate-on-scroll">
-          <div className="eyebrow">B. Tính chất của tôn giáo</div>
-          <h2>Những đặc trưng nổi bật</h2>
+          <div className="eyebrow">
+            II. TƯ TƯỞNG HỒ CHÍ MINH VỀ CHỦ NGHĨA XÃ HỘI
+          </div>
+          <h2>Đặc trưng của chủ nghĩa xã hội</h2>
         </div>
         <div className="grid three">
           {characteristics.map((item, index) => (
@@ -193,16 +206,19 @@ function App() {
             >
               {item.image && (
                 <div className="card-image-wrapper">
-                  <img 
-                    src={item.image} 
+                  <img
+                    src={item.image}
                     alt={item.title}
                     className="card-image"
                     onError={(e) => {
-                      e.target.style.display = 'none';
-                      e.target.nextSibling.style.display = 'flex';
+                      e.target.style.display = "none";
+                      e.target.nextSibling.style.display = "flex";
                     }}
                   />
-                  <div className="card-image-placeholder" style={{ display: 'none' }}>
+                  <div
+                    className="card-image-placeholder"
+                    style={{ display: "none" }}
+                  >
                     <span className="placeholder-icon">🖼️</span>
                     <span className="placeholder-text">Hình ảnh</span>
                   </div>
@@ -219,13 +235,13 @@ function App() {
       <section className="panel" id="principles">
         <div className="section-head animate-on-scroll">
           <div className="eyebrow">
-            II. Nguyên tắc giải quyết vấn đề tôn giáo trong thời kỳ quá độ lên
-            CNXH
+            III. HỆ TƯ DUY MỚI CHO THẾ HỆ TRẺ VIỆT NAM
           </div>
-          <h2>4 Nguyên tắc cơ bản</h2>
+          <h2>Bản lĩnh - Sáng tạo - Cống hiến</h2>
           <p>
-            Giải quyết vấn đề tôn giáo là quá trình lâu dài, cần sự tế nhị, tôn
-            trọng quyền con người và gắn với phát triển kinh tế - xã hội.
+            Trong bối cảnh toàn cầu hóa và kỷ nguyên số, thế hệ trẻ Việt Nam cần
+            trang bị hệ tư duy vững vàng kết hợp giữa triết lý truyền thống và
+            hơi thở thời đại.
           </p>
         </div>
         <div className="animate-on-scroll">
@@ -236,13 +252,13 @@ function App() {
       <section className="panel" id="vietnam">
         <div className="section-head animate-on-scroll">
           <div className="eyebrow">
-            III. Tôn giáo ở Việt Nam và chính sách tôn giáo của Đảng, Nhà nước
-            ta hiện nay
+            IV. GƯƠNG MẶT TIÊU BIỂU VÀ CÂU CHUYỆN THÀNH CÔNG
           </div>
-          <h2>A. Đặc điểm tôn giáo ở Việt Nam</h2>
+          <h2>A. Những tấm gương sáng của thế hệ trẻ</h2>
           <p>
-            Tôn giáo ở Việt Nam đa dạng, đan xen, chung sống hòa bình. Dưới đây
-            là đặc điểm và các minh họa chính sách hiện hành.
+            Những câu chuyện thành công từ các cá nhân và tập thể không chỉ là
+            ánh hào quang của riêng họ, mà là những tấm gương phản chiếu khát
+            vọng vươn mình của cả một thế hệ.
           </p>
         </div>
         <div className="card highlight animate-on-scroll">
@@ -263,7 +279,7 @@ function App() {
               <div className="feature-image-wrapper">
                 <img
                   src={featureImages[featureImgIndex]}
-                  alt="Đặc điểm tôn giáo tại Việt Nam"
+                  alt="Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội"
                   className="feature-image"
                   onError={(e) => {
                     e.target.style.display = "none";
@@ -307,7 +323,10 @@ function App() {
               ))}
             </div>
           )}
-          <h3>Đặc điểm tôn giáo tại Việt Nam</h3>
+          <h3>
+            Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội - Ngọn
+            đuốc soi đường
+          </h3>
           <ul className="bullet-list">
             {vnFeatures.map((item) => (
               <li key={item}>{item}</li>
@@ -324,16 +343,19 @@ function App() {
             >
               {item.image && (
                 <div className="card-image-wrapper">
-                  <img 
-                    src={item.image} 
+                  <img
+                    src={item.image}
                     alt={item.title}
                     className="card-image"
                     onError={(e) => {
-                      e.target.style.display = 'none';
-                      e.target.nextSibling.style.display = 'flex';
+                      e.target.style.display = "none";
+                      e.target.nextSibling.style.display = "flex";
                     }}
                   />
-                  <div className="card-image-placeholder" style={{ display: 'none' }}>
+                  <div
+                    className="card-image-placeholder"
+                    style={{ display: "none" }}
+                  >
                     <span className="placeholder-icon">🖼️</span>
                     <span className="placeholder-text">Hình ảnh</span>
                   </div>
@@ -342,8 +364,8 @@ function App() {
               <div className="tagline">{item.title}</div>
               <p>{item.text}</p>
               {item.link && (
-                <div style={{ marginTop: '16px', textAlign: 'center' }}>
-                  <a 
+                <div style={{ marginTop: "16px", textAlign: "center" }}>
+                  <a
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -361,10 +383,10 @@ function App() {
       <section className="panel">
         <div className="section-head animate-on-scroll">
           <div className="eyebrow">
-            B. Chính sách của Đảng, Nhà nước Việt Nam đối với tín ngưỡng, tôn
-            giáo hiện nay
+            B. Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội - Kim
+            chỉ nam cho cách mạng Việt Nam
           </div>
-          <h2>5 Định hướng chính sách</h2>
+          <h2>Kết luận</h2>
         </div>
         <div className="policy-flow">
           {policies.map((item, idx) => (
@@ -377,17 +399,20 @@ function App() {
               <div style={{ flex: 1 }}>
                 {item.image && (
                   <div className="policy-image-wrapper">
-                    <img 
-                      src={item.image} 
+                    <img
+                      src={item.image}
                       alt={item.title}
                       className="policy-image"
                       onError={(e) => {
                         console.log(`Lỗi tải ảnh: ${item.image}`);
-                        e.target.style.display = 'none';
-                        e.target.nextSibling.style.display = 'flex';
+                        e.target.style.display = "none";
+                        e.target.nextSibling.style.display = "flex";
                       }}
                     />
-                    <div className="card-image-placeholder" style={{ display: 'none' }}>
+                    <div
+                      className="card-image-placeholder"
+                      style={{ display: "none" }}
+                    >
                       <span className="placeholder-icon">📋</span>
                       <span className="placeholder-text">{item.title}</span>
                     </div>

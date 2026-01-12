@@ -1,4 +1,4 @@
-# 📚 MLN131 - Chương VI: Tôn Giáo Trong Thời Kỳ Quá Độ
+# ⭐ HCM202 - Tư tưởng Hồ Chí Minh: Độc lập Dân tộc và Chủ nghĩa Xã hội
 
 <div align="center">
 
@@ -7,9 +7,9 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-**Ứng dụng web tương tác về Triết học Mác - Lênin**
+**Ứng dụng web tương tác về tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội**
 
-*Khám phá quan điểm của Chủ nghĩa Mác - Lênin về tôn giáo trong thời kỳ quá độ lên Chủ nghĩa Xã hội*
+_Khám phá tư tưởng Hồ Chí Minh về độc lập dân tộc gắn liền với chủ nghĩa xã hội_
 
 [🚀 Demo Live](#) • [📖 Tài liệu](#tài-liệu) • [🛠️ Cài đặt](#cài-đặt) • [👥 Đóng góp](#đóng-góp)
 
@@ -19,7 +19,7 @@
 
 ## 🎯 Tổng quan
 
-**MLN131 - Chương VI** là một ứng dụng web hiện đại được thiết kế để trình bày nội dung học thuật về **Vấn đề Dân tộc và Tôn giáo** trong môn Triết học Mác - Lênin. Ứng dụng cung cấp trải nghiệm học tập tương tác với giao diện đẹp mắt và responsive.
+**HCM202 - tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội** là một ứng dụng web hiện đại được thiết kế để trình bày nội dung học thuật về **tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội**. Ứng dụng cung cấp trải nghiệm học tập tương tác với giao diện đẹp mắt và responsive, kết hợp các gương mặt tiêu biểu và câu chuyện thành công của thế hệ trẻ Việt Nam.
 
 ### ✨ Tính năng nổi bật
 
@@ -28,31 +28,39 @@
 - 🖼️ **Thư viện ảnh phong phú** - Hình ảnh minh họa chất lượng cao
 - ⚡ **Hiệu suất tối ưu** - Tải nhanh với Vite và React 19
 - 🎭 **Hiệu ứng động** - Animation mượt mà và chuyển tiếp đẹp mắt
-- 📚 **Nội dung học thuật** - Thông tin chính xác và đầy đủ
+- 📚 **Nội dung học thuật** - Thông tin chính xác và đầy đủ về tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội
 
 ---
 
 ## 🏗️ Cấu trúc nội dung
 
-### I. Quan điểm của Chủ nghĩa Mác - Lênin về Tôn giáo
+### I. tư tưởng Hồ Chí Minh về độc lập dân tộc
 
-- **Bản chất tôn giáo** - Phản ánh hư ảo của hiện thực khách quan
-- **5 Yếu tố cấu trúc** - Niềm tin, Giáo thuyết, Cơ sở thờ tự, Tổ chức nhân sự, Tín đồ
-- **3 Nguồn gốc** - Kinh tế-xã hội, Nhận thức, Tâm lý
-- **Tính chất** - Tính lịch sử, quần chúng, chính trị
+- **Quyền thiêng liêng** - Độc lập, tự do là quyền bất khả xâm phạm
+- **Quan điểm cốt lõi** - Quyền thiêng liêng, Gắn liền hạnh phúc, Độc lập thật sự, Thống nhất lãnh thổ, Con đường cách mạng
+- **Cách mạng giải phóng** - Lãnh đạo cách mạng, Tính chủ động sáng tạo, Phương pháp bạo lực cách mạng
+- **Con đường cách mạng vô sản** - Kết hợp độc lập dân tộc với chủ nghĩa xã hội
 
-### II. Nguyên tắc giải quyết vấn đề tôn giáo
+### II. tư tưởng Hồ Chí Minh về chủ nghĩa xã hội
 
-- 🔐 **Tôn trọng quyền tự do** tín ngưỡng, tôn giáo
-- 🔄 **Khắc phục ảnh hưởng tiêu cực** gắn với cải tạo xã hội
-- ⚖️ **Phân biệt mặt chính trị** và mặt tư tưởng
-- 📅 **Quan điểm lịch sử - cụ thể** trong giải quyết
+- 📈 **Tính tất yếu lịch sử** - Xu thế phát triển tự nhiên của xã hội
+- 👥 **Dân chủ nhân dân** - Nhân dân làm chủ dưới sự lãnh đạo của Đảng
+- ⚙️ **Kinh tế phát triển** - Nền kinh tế hiện đại với chế độ công hữu
 
-### III. Tôn giáo ở Việt Nam và Chính sách
+### III. Hệ tư duy mới cho thế hệ trẻ Việt Nam
 
-- 🇻🇳 **Đặc điểm tôn giáo** tại Việt Nam
-- 📋 **5 Định hướng chính sách** của Đảng và Nhà nước
-- 🤝 **Thực tiễn ứng dụng** trong đời sống xã hội
+- 🧠 **Tư duy độc lập, tự chủ** - Bản lĩnh của sự khác biệt
+- 💪 **Tinh thần tự lực cánh sinh** - Nội lực là gốc rễ phồn vinh
+- 🤝 **Mục tiêu cá nhân gắn cộng đồng** - Giá trị chia sẻ bền vững
+- 🎯 **Kiên định lý tưởng, linh hoạt phương pháp** - Nghệ thuật ứng biến
+
+### IV. Gương mặt tiêu biểu và câu chuyện thành công
+
+- 🏗️ **KTS Võ Trọng Nghĩa** - Kiến trúc xanh với tre Việt
+- 🚗 **VinFast** - Giấc mơ ô tô điện Việt Nam
+- 🌱 **Nhóm Sài Gòn Xanh** - Thế hệ trẻ vì môi trường
+- 🍞 **CEO Kao Siêu Lực** - Sáng tạo bánh mì thanh long
+- 💻 **FPT Software** - Công nghệ Việt Nam ra thế giới
 
 ---
 
@@ -101,9 +109,9 @@
 
 ### Hướng dẫn cài đặt
 
-```bash
+````bash
 # 1. Clone repository
-cd mln131-chuong-vi
+cd HCM202-tu-tuong-hcm
 
 # 2. Cài đặt dependencies
 npm install
@@ -123,14 +131,14 @@ npm run build
 
 # Preview build
 npm run preview
-```
+````
 
 ---
 
 ## 📁 Cấu trúc dự án
 
 ```
-mln131-chuong-vi/
+HCM202-tu-tuong-hcm/
 ├── 📁 public/
 │   ├── 📁 images/          # Thư viện ảnh minh họa
 │   │   ├── BaLaMon.jpg
@@ -145,7 +153,7 @@ mln131-chuong-vi/
 │   │   ├── Footer.jsx      # Footer component
 │   │   └── Dropdown.jsx    # Accordion component
 │   ├── 📁 data/
-│   │   └── content.js      # Dữ liệu nội dung
+│   │   └── content.js      # Dữ liệu nội dung tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội
 │   ├── App.jsx             # Main App component
 │   ├── App.css             # Styles chính
 │   ├── index.css           # Global styles
@@ -161,11 +169,11 @@ mln131-chuong-vi/
 
 <div align="center">
 
-| Màu chính | Hex Code | Ý nghĩa |
-|-----------|----------|---------|
+| Màu chính          | Hex Code  | Ý nghĩa                                 |
+| ------------------ | --------- | --------------------------------------- |
 | 🔴 **Đỏ Việt Nam** | `#c41e3a` | Màu chủ đạo, thể hiện tinh thần dân tộc |
-| 🟡 **Vàng Gold** | `#ffd700` | Màu điểm nhấn, tượng trưng cho tri thức |
-| ⚪ **Trắng** | `#ffffff` | Màu nền, tạo sự sạch sẽ và trang nhã |
+| 🟡 **Vàng Gold**   | `#ffd700` | Màu điểm nhấn, tượng trưng cho tri thức |
+| ⚪ **Trắng**       | `#ffffff` | Màu nền, tạo sự sạch sẽ và trang nhã    |
 
 </div>
 
@@ -174,7 +182,7 @@ mln131-chuong-vi/
 ## 📱 Responsive Design
 
 - **Desktop** (≥ 1024px) - Layout 3 cột với navigation đầy đủ
-- **Tablet** (768px - 1023px) - Layout 2 cột với navigation thu gọn  
+- **Tablet** (768px - 1023px) - Layout 2 cột với navigation thu gọn
 - **Mobile** (≤ 767px) - Layout 1 cột với hamburger menu
 
 ---
@@ -195,9 +203,9 @@ Chúng tôi hoan nghênh mọi đóng góp để cải thiện dự án!
 
 <div align="center">
 
-**Group6_3W_MLN131_04_TriLM32**
+**HCM202_MC1809_SP26_PhuongNT316**
 
-*Môn: Triết học Mác - Lênin (MLN131)*
+_Môn: tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội (HCM202)_
 
 </div>
 
@@ -213,6 +221,6 @@ Dự án này được phát hành dưới [MIT License](LICENSE).
 
 **⭐ Nếu dự án hữu ích, hãy cho chúng tôi một star! ⭐**
 
-Made with ❤️ by Group6_3W_MLN131_04_TriLM32
+Made with ❤️ by HCM202_MC1809_SP26_PhuongNT316
 
 </div>

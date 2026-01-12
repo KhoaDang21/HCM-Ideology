@@ -5,13 +5,13 @@ function Footer() {
         <div className="footer-main">
           <div className="footer-brand">
             <div className="footer-logo">
-              <span className="logo-icon">📚</span>
-              <span className="logo-text">MLN131 - Chương VI</span>
+              <span className="logo-icon">⭐</span>
+              <span className="logo-text">HCM202 - Tư tưởng HCM về ĐLDT & CNXH</span>
             </div>
             <p className="footer-desc">
-              Chương VI: Vấn đề Dân tộc và Tôn giáo
+              Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội
               <br />
-              Triết học Mác - Lênin • © Group6_3W_MLN131_04_TriLM32
+              © HCM202_MC1809_SP26_PhuongNT316
             </p>
           </div>
 
@@ -20,31 +20,31 @@ function Footer() {
               <h4>Nội dung chính</h4>
               <ul>
                 <li>
-                  <a href="#concept">Bản chất tôn giáo</a>
+                  <a href="#concept">Độc lập dân tộc</a>
                 </li>
                 <li>
-                  <a href="#structure">Cấu trúc tôn giáo</a>
+                  <a href="#structure">Đặc trưng cốt lõi</a>
                 </li>
                 <li>
-                  <a href="#origin">Nguồn gốc tôn giáo</a>
+                  <a href="#origin">Cách mạng giải phóng</a>
                 </li>
                 <li>
-                  <a href="#characteristics">Tính chất tôn giáo</a>
+                  <a href="#characteristics">Chủ nghĩa xã hội</a>
                 </li>
               </ul>
             </div>
 
             <div className="footer-section">
-              <h4>Chính sách</h4>
+              <h4>Tư duy mới</h4>
               <ul>
                 <li>
-                  <a href="#principles">Nguyên tắc giải quyết</a>
+                  <a href="#principles">Hệ tư duy thế hệ trẻ</a>
                 </li>
                 <li>
-                  <a href="#vietnam">Tôn giáo ở Việt Nam</a>
+                  <a href="#vietnam">Gương mặt tiêu biểu</a>
                 </li>
                 <li>
-                  <a href="#vietnam">Chính sách Đảng & Nhà nước</a>
+                  <a href="#vietnam">Câu chuyện thành công</a>
                 </li>
               </ul>
             </div>
@@ -53,13 +53,13 @@ function Footer() {
               <h4>Tài liệu</h4>
               <ul>
                 <li>
-                  <a href="#">Giáo trình Triết học</a>
+                  <a href="#">Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội</a>
                 </li>
                 <li>
                   <a href="#">Tài liệu tham khảo</a>
                 </li>
                 <li>
-                  <a href="#">Bài giảng MLN131</a>
+                  <a href="#">Bài giảng HCM202</a>
                 </li>
               </ul>
             </div>
@@ -68,8 +68,8 @@ function Footer() {
 
         <div className="footer-bottom">
           <p>
-            &copy; 2025 Group6_3W_MLN131_04_TriLM32. Được thiết kế cho môn
-            Triết học Mác - Lênin. Dựa trên giáo trình chính thức.
+            &copy; 2025 HCM202_MC1809_SP26_PhuongNT316. Được thiết kế cho môn
+            Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội. Dựa trên giáo trình chính thức và tài liệu nghiên cứu.
           </p>
         </div>
       </div>
