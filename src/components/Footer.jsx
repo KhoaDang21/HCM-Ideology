@@ -6,12 +6,13 @@ function Footer() {
           <div className="footer-brand">
             <div className="footer-logo">
               <span className="logo-icon">⭐</span>
-              <span className="logo-text">HCM202 - Tư tưởng HCM về ĐLDT & CNXH</span>
+              <span className="logo-text">
+                HCM202 - Tư tưởng HCM về ĐLDT & CNXH
+              </span>
             </div>
             <p className="footer-desc">
               Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội
-              <br />
-              © HCM202_MC1809_SP26_PhuongNT316
+              <br />© HCM202_MC1809_SP26_PhuongNT316
             </p>
           </div>
 
@@ -53,7 +54,9 @@ function Footer() {
               <h4>Tài liệu</h4>
               <ul>
                 <li>
-                  <a href="#">Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội</a>
+                  <a href="#">
+                    Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội
+                  </a>
                 </li>
                 <li>
                   <a href="#">Tài liệu tham khảo</a>
@@ -68,8 +71,9 @@ function Footer() {
 
         <div className="footer-bottom">
           <p>
-            &copy; 2025 HCM202_MC1809_SP26_PhuongNT316. Được thiết kế cho môn
-            Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội. Dựa trên giáo trình chính thức và tài liệu nghiên cứu.
+            &copy; 2026 HCM202_MC1809_SP26_PhuongNT316. Được thiết kế cho môn Tư
+            tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội. Dựa trên
+            giáo trình chính thức và tài liệu nghiên cứu.
           </p>
         </div>
       </div>

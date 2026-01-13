@@ -34,8 +34,8 @@ function Banner() {
             </span>
           </div>
           <div className="stat">
-            <span className="stat-number">Quan Điểm</span>
-            <span className="stat-label">Về độc lập dân tộc</span>
+            <span className="stat-number">Cách mạng giải phóng dân tộc</span>
+            <span className="stat-label">Con đường cách mạng vô sản</span>
           </div>
           <div className="stat">
             <span className="stat-number">Chủ Nghĩa Xã Hội</span>

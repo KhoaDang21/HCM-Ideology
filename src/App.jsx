@@ -333,12 +333,6 @@ function App() {
               <li key={item}>{item}</li>
             ))}
           </ul>
-          <div style={{ marginTop: "24px", padding: "20px", background: "rgba(196, 30, 58, 0.05)", borderRadius: "12px", borderLeft: "4px solid var(--primary)" }}>
-            <p style={{ fontStyle: "italic", color: "var(--text-secondary)", margin: 0 }}>
-              "Năm câu chuyện, năm lĩnh vực khác nhau, nhưng đều gặp gỡ ở một điểm: Đó là sự vận dụng sáng tạo tinh thần Hồ Chí Minh vào thời đại mới. 
-              Họ chính là những người đang viết tiếp trang sử vàng của dân tộc."
-            </p>
-          </div>
         </div>
 
         <div className="grid adaptive center-last">
