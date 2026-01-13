@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Dropdown({ items }) {
-  const [openIndex, setOpenIndex] = useState(0);
+  const [openIndex, setOpenIndex] = useState(-1);
 
   return (
     <div className="accordion">

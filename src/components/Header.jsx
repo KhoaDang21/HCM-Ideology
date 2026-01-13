@@ -52,9 +52,22 @@ function Header() {
           <a href="#structure">Đặc trưng</a>
           <a href="#origin">Cách mạng</a>
           <a href="#characteristics">Chủ nghĩa XH</a>
-          <a href="#principles">Tư duy mới</a>
-          <a href="#vietnam">Gương sáng</a>
+          <a href="#principles">Sáng tạo</a>
+          <a href="#vietnam">Tấm gương sáng</a>
         </nav>
+
+        {/* Mobile Menu Button */}
+        <button
+          className="mobile-menu-btn"
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          aria-label="Toggle mobile menu"
+        >
+          <div className={`hamburger ${isMobileMenuOpen ? "active" : ""}`}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
       </div>
 
       {/* Mobile Navigation */}
@@ -72,10 +85,10 @@ function Header() {
           Chủ nghĩa XH
         </a>
         <a href="#principles" onClick={() => setIsMobileMenuOpen(false)}>
-          Tư duy mới
+          Sáng tạo
         </a>
         <a href="#vietnam" onClick={() => setIsMobileMenuOpen(false)}>
-          Gương sáng
+          Tấm gương sáng
         </a>
       </div>
 

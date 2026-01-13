@@ -35,16 +35,16 @@ function Footer() {
             </div>
 
             <div className="footer-section">
-              <h4>Tư duy mới</h4>
+              <h4>Sáng tạo và Lịch sử</h4>
               <ul>
                 <li>
-                  <a href="#principles">Hệ tư duy thế hệ trẻ</a>
+                  <a href="#principles">Sự sáng tạo đột phá</a>
                 </li>
                 <li>
-                  <a href="#vietnam">Gương mặt tiêu biểu</a>
+                  <a href="#vietnam">Sự kiện lịch sử</a>
                 </li>
                 <li>
-                  <a href="#vietnam">Câu chuyện thành công</a>
+                  <a href="#vietnam">Mốc son quan trọng</a>
                 </li>
               </ul>
             </div>

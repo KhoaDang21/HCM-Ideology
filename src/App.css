@@ -65,30 +65,33 @@ body {
 }
 
 .header-content {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 12px;
+  width: 100%;
   height: 72px;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
+  display: flex;
   align-items: center;
-  gap: 24px;
+  position: relative;
   white-space: nowrap;
+  padding: 0;
 }
 
 .header-left {
   display: flex;
   align-items: center;
-  justify-self: start;
-  margin-left: 0;
+  position: absolute;
+  left: 24px;
+  z-index: 10;
 }
 
-.header-right {
+.nav-center {
   display: flex;
+  gap: 32px;
   align-items: center;
-  justify-self: end;
-  gap: 16px;
-  margin-right: 0;
+  justify-content: center;
+  white-space: nowrap;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
 }
 
 .logo {
@@ -111,14 +114,6 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-}
-
-.nav-center {
-  display: flex;
-  gap: 32px;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;
 }
 
 .nav-center a {
@@ -531,6 +526,32 @@ body {
   display: grid;
   gap: 32px;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-content: center;
+}
+
+/* Special grid for centering last 2 cards */
+.grid.adaptive.center-last {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.grid.adaptive.center-last .card {
+  flex: 0 0 320px;
+  width: 320px;
+  max-width: 320px;
+  min-width: 320px;
+}
+
+/* Ensure all cards have the same width */
+@media (min-width: 1200px) {
+  .grid.adaptive.center-last .card {
+    flex: 0 0 350px;
+    width: 350px;
+    max-width: 350px;
+    min-width: 350px;
+  }
 }
 
 .grid.masonry {
@@ -1331,12 +1352,37 @@ body {
   font-size: 0.85rem;
   transition: all 0.3s ease;
   box-shadow: 0 2px 8px rgba(196, 30, 58, 0.3);
+  min-height: 36px;
+  justify-content: center;
 }
 
 .card-reference-link:hover {
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(196, 30, 58, 0.4);
   background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+}
+
+/* Ensure cards have consistent height and link positioning */
+.card.soft {
+  background: var(--surface);
+  box-shadow: 0 8px 32px rgba(45, 55, 72, 0.08);
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+}
+
+.card.soft .tagline {
+  margin-bottom: 16px;
+}
+
+.card.soft p {
+  flex: 1;
+  margin-bottom: 16px;
+}
+
+.card.soft > div:last-child {
+  margin-top: auto;
+  text-align: center;
 }
 
 /* Flipbook Modal */
@@ -1470,6 +1516,18 @@ body.modal-open {
     padding: 8px 12px;
   }
   
+  /* Ensure navigation doesn't overlap with logo on medium screens */
+  .header-left {
+    z-index: 11;
+  }
+  
+  .grid.adaptive.center-last .card {
+    flex: 0 0 300px;
+    width: 300px;
+    max-width: 300px;
+    min-width: 300px;
+  }
+  
   .panel {
     padding: 80px 0;
   }
@@ -1510,7 +1568,13 @@ body.modal-open {
     height: 64px;
     display: flex;
     justify-content: space-between;
-    gap: 16px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .header-left {
+    position: static;
+    left: auto;
   }
   
   .nav-center {
@@ -1586,8 +1650,21 @@ body.modal-open {
   .grid.five.wrap,
   .grid.six,
   .grid.adaptive,
+  .grid.adaptive.center-last,
   .grid.masonry {
     grid-template-columns: 1fr;
+  }
+  
+  .grid.adaptive.center-last {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grid.adaptive.center-last .card {
+    flex: none;
+    width: 100%;
+    max-width: none;
+    min-width: auto;
   }
   
   .card {

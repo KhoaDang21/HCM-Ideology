@@ -1,33 +1,28 @@
 export const structure = [
   {
     title: "Quyền thiêng liêng",
-    desc: "Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm của mọi dân tộc.",
+    desc: "Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm của mọi dân tộc. Hồ Chí Minh nâng quyền con người thành quyền dân tộc.",
     icon: "🏛️",
-    image: "/images/NiemTin.jpg",
   },
   {
     title: "Gắn liền hạnh phúc",
-    desc: "Độc lập dân tộc gắn liền với tự do, hạnh phúc của nhân dân.",
+    desc: "Độc lập dân tộc gắn liền với tự do, hạnh phúc của nhân dân. 'Nước độc lập mà dân không hưởng hạnh phúc tự do, thì độc lập cũng chẳng có nghĩa lý gì.'",
     icon: "❤️",
-    image: "/images/GiaoThuyet.jpg",
   },
   {
     title: "Độc lập thật sự",
-    desc: "Độc lập phải là nền độc lập thật sự, hoàn toàn và triệt để về mọi mặt.",
+    desc: "Độc lập phải là nền độc lập thật sự, hoàn toàn và triệt để về chính trị, kinh tế, quân sự, ngoại giao và chủ quyền lãnh thổ.",
     icon: "🗽",
-    image: "/images/ThoTu.jpg",
   },
   {
     title: "Thống nhất lãnh thổ",
-    desc: "Độc lập dân tộc gắn liền với thống nhất và toàn vẹn lãnh thổ.",
+    desc: "Độc lập dân tộc gắn liền với thống nhất và toàn vẹn lãnh thổ. 'Sông có thể cạn, núi có thể mòn, song chân lý đó không bao giờ thay đổi.'",
     icon: "🗺️",
-    image: "/images/NhanSu.jpg",
   },
   {
     title: "Con đường cách mạng",
-    desc: "Cách mạng giải phóng dân tộc theo con đường cách mạng vô sản.",
+    desc: "Muốn cứu nước và giải phóng dân tộc không có con đường nào khác con đường cách mạng vô sản, kết hợp độc lập dân tộc với chủ nghĩa xã hội.",
     icon: "⭐",
-    image: "/images/TinDo.jpg",
   },
 ];
 
@@ -35,22 +30,22 @@ export const origins = [
   {
     title: "Lãnh đạo cách mạng",
     points: [
-      "Cách mạng giải phóng dân tộc phải do Đảng Cộng sản lãnh đạo mới có thể thành công và bền vững.",
-      "Dựa trên sức mạnh của khối đại đoàn kết toàn dân tộc, trong đó liên minh công - nông là nền tảng.",
+      "Cách mạng giải phóng dân tộc phải do Đảng Cộng sản lãnh đạo mới có thể thành công và bền vững. Đảng như người cầm lái con thuyền với chủ nghĩa Mác-Lênin làm cốt.",
+      "Dựa trên sức mạnh của khối đại đoàn kết toàn dân tộc, trong đó liên minh công - nông là nền tảng, đồng thời đoàn kết mọi tầng lớp yêu nước.",
     ],
   },
   {
     title: "Tính chủ động và sáng tạo",
     points: [
-      "Cách mạng thuộc địa có thể giành thắng lợi trước cách mạng vô sản ở chính quốc.",
-      "Không hoàn toàn phụ thuộc vào sự nổ ra của cách mạng chính quốc, mà có tính chủ động cao.",
+      "Cách mạng thuộc địa có thể giành thắng lợi trước cách mạng vô sản ở chính quốc. Chủ nghĩa đế quốc như 'con đỉa hai vòi' - một vòi hút máu ở chính quốc, một vòi hút máu ở thuộc địa.",
+      "Không hoàn toàn phụ thuộc vào sự nổ ra của cách mạng chính quốc, mà có tính chủ động cao và trở thành động lực thúc đẩy phong trào cách mạng thế giới.",
     ],
   },
   {
     title: "Phương pháp bạo lực cách mạng",
     points: [
-      "Cách mạng giải phóng dân tộc phải được tiến hành bằng bạo lực cách mạng.",
-      "Kết hợp đấu tranh chính trị với đấu tranh vũ trang để giành và giữ chính quyền.",
+      "Cách mạng giải phóng dân tộc phải được tiến hành bằng bạo lực cách mạng vì thực dân dùng súng đạn để áp bức, ta không thể dùng tay không để giành độc lập.",
+      "Kết hợp đấu tranh chính trị với đấu tranh vũ trang để giành và giữ chính quyền. Nghệ thuật 'khởi nghĩa từng phần tiến tới tổng khởi nghĩa', dựa vào thế trận lòng dân.",
     ],
   },
 ];
@@ -58,114 +53,117 @@ export const origins = [
 export const characteristics = [
   {
     title: "Tính tất yếu lịch sử",
-    desc: "Tiến lên chủ nghĩa xã hội là một quá trình lịch sử tự nhiên, là chân lý và xu thế tất yếu của thời đại.",
+    desc: "Tiến lên chủ nghĩa xã hội là một quá trình lịch sử tự nhiên, là chân lý và xu thế tất yếu của thời đại. Hồ Chí Minh ví chủ nghĩa xã hội như mặt trời mọc, không ai có thể ngăn cản được.",
     icon: "📚",
   },
   {
     title: "Dân chủ nhân dân",
-    desc: "Xã hội có chế độ dân chủ, nhân dân là chủ, quyền lực thuộc về nhân dân dưới sự lãnh đạo của Đảng.",
+    desc: "Xã hội có chế độ dân chủ, nhân dân là chủ, quyền lực thuộc về nhân dân dưới sự lãnh đạo của Đảng. Mọi quyền lực đều nằm trong tay dân, Nhà nước là công cụ để dân thực hiện quyền làm chủ.",
     icon: "👥",
   },
   {
     title: "Kinh tế phát triển",
-    desc: "Có nền kinh tế phát triển cao, dựa trên lực lượng sản xuất hiện đại và chế độ công hữu về tư liệu sản xuất.",
+    desc: "Có nền kinh tế phát triển cao, dựa trên lực lượng sản xuất hiện đại và chế độ công hữu về tư liệu sản xuất chủ yếu nhằm xóa bỏ bóc lột. Xây dựng nền kinh tế công - nông nghiệp hiện đại.",
     icon: "⚙️",
+  },
+  {
+    title: "Văn hóa - Xã hội",
+    desc: "Không còn bóc lột, áp bức. Xã hội công bằng, hợp lý. Con người được phát triển toàn diện, có đạo đức, văn hóa cao. Văn hóa mang tính dân tộc, khoa học và đại chúng.",
+    icon: "🎭",
+  },
+  {
+    title: "Con người mới XHCN",
+    desc: "Mục tiêu quan trọng nhất là đào tạo con người mới xã hội chủ nghĩa - vừa 'hồng' (đạo đức), vừa 'chuyên' (tài năng). Muốn có CNXH, trước hết cần có con người XHCN.",
+    icon: "🌟",
   },
 ];
 
 export const principles = [
   {
-    title: "Tư duy độc lập, tự chủ: Bản lĩnh của sự khác biệt",
+    title: "Sáng tạo về quan hệ giữa cách mạng thuộc địa và chính quốc",
     content:
-      "Trong thế giới toàn cầu hóa, tư duy độc lập là năng lực tư duy phản biện kết hợp với lòng tự tôn dân tộc. Giải pháp tối ưu không phải là thứ đắt tiền nhất từ phương Tây, mà là giải pháp phù hợp nhất với văn hóa và con người Việt Nam.",
+      "Hồ Chí Minh đã bác bỏ quan điểm cho rằng cách mạng ở thuộc địa mang tính thụ động, chỉ là lực lượng dự trữ. Bằng hình ảnh ẩn dụ ví chủ nghĩa đế quốc như 'con đỉa hai vòi', Người chỉ rõ cách mạng giải phóng dân tộc ở thuộc địa có khả năng giành thắng lợi trước và trở thành động lực thúc đẩy phong trào cách mạng thế giới.",
   },
   {
-    title: "Tinh thần tự lực cánh sinh: Nội lực là gốc rễ của sự phồn vinh",
+    title: "Chiến lược tập hợp lực lượng đại đoàn kết toàn dân tộc",
     content:
-      "Tự lực cánh sinh là chuyển dịch tâm thế từ 'thụ động chờ đợi' sang 'chủ động kiến tạo'. Ngoại lực chỉ là cơn gió nâng cánh, còn nội lực (trí tuệ, khát vọng) mới là đôi cánh giúp ta bay lên.",
+      "Người xác định mâu thuẫn chủ yếu ở nước thuộc địa là mâu thuẫn giữa toàn thể dân tộc với đế quốc xâm lược. Trên nền tảng liên minh công - nông, Người chủ trương tập hợp lực lượng rộng rãi nhất, thu phục cả tiểu tư sản, trí thức, trung lập hóa tư sản dân tộc để kéo họ về phía cách mạng.",
   },
   {
-    title: "Mục tiêu cá nhân gắn liền với lợi ích cộng đồng",
+    title: "Phương pháp cách mạng: Tự lực cánh sinh và khởi nghĩa toàn dân",
     content:
-      "Thành công trong thế kỷ 21 nằm ở Giá trị chia sẻ. Lợi ích cá nhân chân chính chỉ bền vững khi nằm trong sự phát triển chung của cộng đồng. Tư duy này tôn vinh lối sống trách nhiệm.",
+      "Hồ Chí Minh kiên quyết khước từ tâm lý ỷ lại hay trông chờ vào sự 'ban ơn' từ bên ngoài. Người nêu cao tinh thần độc lập tự chủ với phương châm 'Đem sức ta mà tự giải phóng cho ta'. Phương pháp cách mạng là nghệ thuật kết hợp chặt chẽ giữa đấu tranh chính trị và đấu tranh vũ trang, tiến tới khởi nghĩa toàn dân.",
   },
   {
-    title: "Kiên định lý tưởng, linh hoạt phương pháp: Nghệ thuật ứng biến",
+    title: "Kết hợp độc lập dân tộc với chủ nghĩa xã hội",
     content:
-      "Đúc kết từ phương châm 'Dĩ bất biến, ứng vạn biến'. Cái 'Bất biến' là lý tưởng sống và đạo đức; cái 'Vạn biến' là chiến thuật và cách thức thực hiện. Sự linh hoạt giúp không gãy đổ trước bão táp thay đổi.",
+      "Tư tưởng Hồ Chí Minh về độc lập dân tộc gắn liền với chủ nghĩa xã hội là 'sợi chỉ đỏ' xuyên suốt con đường cách mạng Việt Nam. Độc lập dân tộc là tiền đề, điều kiện tiên quyết để xây dựng chủ nghĩa xã hội; ngược lại, chủ nghĩa xã hội là cơ sở vững chắc nhất để bảo vệ nền độc lập dân tộc.",
   },
 ];
 
 export const reality = [
   {
-    title: "Kiến trúc sư Võ Trọng Nghĩa",
-    text: "Từ chối chạy đua theo tòa nhà chọc trời bằng kính thép, chọn lối đi 'độc đạo': Đưa tre - vật liệu bình dị của làng quê Việt - trở thành ngôn ngữ kiến trúc cao cấp.",
-    image: "/images/DemNoel.jpg",
-    link: "https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/tu-van-phap-luat/41987/quyen-tu-do-tin-nguong-ton-giao-duoc-quy-dinh-nhu-the-nao",
-    linkText: "Đọc thêm",
+    title: "KTS Võ Trọng Nghĩa - Tư duy độc lập và tự chủ",
+    text: "Giữa lúc thế giới đua nhau xây những tòa nhà chọc trời bằng kính và thép tốn kém năng lượng, anh đã chọn một lối đi riêng: Mang cây tre – linh hồn của làng quê Việt – vào kiến trúc cao cấp. Anh không sao chép phương Tây, mà dùng bản sắc Việt để chinh phục thế giới.",
+    image: "/images/kts.jpg",
+    link: "https://kienviet.net/2021/2/3/vo-trong-nghia-architects-gay-an-tuong-tai-world-architects-community-awards-lan-thu-36-voi-3-cong-trinh-thang-giai",
+    linkText: "Tìm hiểu thêm",
   },
   {
-    title: "VinFast & Giấc mơ Mỹ",
-    text: "VinFast đã đập tan định kiến Việt Nam chỉ giỏi xuất khẩu lúa gạo hay gia công giày dép. Từ bãi đầm lầy Cát Hải đến tiếng chuông niêm yết tại New York.",
-    image: "/images/PhatTrien.jpg",
-    link: "https://hcmussh.edu.vn/news/item/26015?",
-    linkText: "Đọc thêm",
+    title: "VinFast - Tinh thần tự lực cánh sinh",
+    text: "Từ một bãi đầm lầy ở Cát Hải, họ đã biến điều không thể thành có thể: Đưa xe điện Việt Nam niêm yết tại sàn chứng khoán Mỹ. Họ đã đập tan định kiến rằng Việt Nam chỉ biết gia công, khẳng định 'Đem sức ta mà tự giải phóng cho ta'.",
+    image: "/images/vin.jpg",
+    link: "https://znews.vn/nha-may-vinfast-tu-dam-lay-thanh-to-hop-san-xuat-xe-cong-nghe-cao-post956320.html",
+    linkText: "Khám phá VinFast",
   },
   {
-    title: "Nhóm Sài Gòn Xanh",
-    text: "Những người trẻ Gen Z 'lội bùn' vì môi trường. Thay vì chọn văn phòng máy lạnh, họ chọn ngâm mình dưới những dòng kênh đen ngòm để khơi thông dòng chảy.",
-    image: "/images/hoinhap2.jpg",
-    link: "https://jci.vn/business-matching/giao-luu-van-hoa-quoc-te/",
-    linkText: "Đọc thêm",
+    title: "Nhóm Sài Gòn Xanh - Trách nhiệm cộng đồng",
+    text: "Thành công ngày nay không đo bằng sự vị kỷ, mà bằng trách nhiệm cộng đồng. Thay vì chọn việc nhẹ nhàng, những bạn trẻ Gen Z này đã lao xuống những dòng kênh đen ngòm để khơi thông dòng chảy, thể hiện tinh thần 'lợi ích cá nhân gắn liền với lợi ích cộng đồng'.",
+    image: "/images/saigon.jpg",
+    link: "https://vov.vn/xa-hoi/nhom-sai-gon-xanh-uoc-mo-xanh-hoa-nhung-dong-kenh-post1146026.vov",
+    linkText: "Theo dõi hoạt động",
   },
   {
-    title: "CEO Kao Siêu Lực",
-    text: "Trong đại dịch Covid-19, giữ vững cái tâm muốn cứu nông dân, ông thay đổi công thức cũ để sáng tạo ra 'Bánh mì thanh long' - vừa giải cứu nông sản, vừa tạo xu hướng mới.",
-    image: "/images/loidungtongiao.jpg",
-    link: "https://thuvienphapluat.vn/phap-luat/hanh-vi-loi-dung-hoat-dong-tin-nguong-ton-giao-de-truc-loi-bi-xu-phat-nhu-the-nao-653.html",
-    linkText: "Đọc thêm",
+    title: "Kao Siêu Lực - 'Dĩ bất biến, ứng vạn biến'",
+    text: "Bài học 'Dĩ bất biến, ứng vạn biến' của Bác được thể hiện xuất sắc qua 'Vua bánh mì' Kao Siêu Lực. Trong đại dịch Covid, để giải cứu nông sản (đó là cái tâm bất biến), ông đã sáng tạo ra Bánh mì thanh long (đó là phương pháp vạn biến).",
+    image: "/images/kao.jpg",
+    link: "https://tcdulichtphcm.vn/suy-ngam/vua-banh-mi-kao-sieu-luc-banh-mi-va-dinh-nghia-doc-dao-ve-am-thuc-viet-nam-c8a95668.html",
+    linkText: "Câu chuyện Kao",
   },
   {
-    title: "FPT Software",
-    text: "Từ con số 0 tròn trĩnh trên bản đồ công nghệ thế giới 25 năm trước, FPT Software đã vươn mình mạnh mẽ nhờ sức mạnh của 30.000 kỹ sư đoàn kết và tinh thần học hỏi không ngừng.",
-    image: "/images/donggop.jpg",
-    link: "https://www.tapchicongsan.org.vn/web/guest/van_hoa_xa_hoi/-/2018/1001102/thuc-hien-chinh-sach-xa-hoi%2C-bao-dam-an-sinh-va-phuc-loi-xa-hoi-trong-tinh-hinh-moi.aspx",
-    linkText: "Đọc thêm",
-  },
-  {
-    title: "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
-    text: "Ngọn đuốc soi đường cho độc lập dân tộc và con đường đi lên chủ nghĩa xã hội. Độc lập dân tộc gắn liền với tự do, hạnh phúc của nhân dân.",
-    image: "/images/hoptac.jpg",
-    link: "https://www.tapchicongsan.org.vn/web/guest/van_hoa_xa_hoi/-/2018/825758/doi-moi%2C-nang-cao-hieu-qua-hoat-dong-hop-tac-quoc-te-trong-linh-vuc-khoa-hoc---cong-nghe.aspx",
-    linkText: "Đọc thêm",
+    title: "FPT Software - Sức mạnh đoàn kết và học tập",
+    text: "Sức mạnh của đoàn kết và học tập. FPT Software từ con số 0 đã vươn lên thành cánh chim đầu đàn công nghệ, đưa trí tuệ Việt ra 30 quốc gia. Họ chứng minh rằng 'cách mạng là việc chung của cả dân chúng', trong đó tri thức và công nghệ là lực lượng then chốt.",
+    image: "/images/fpt.jpg",
+    link: "https://fpt.com/vi/ve-fpt/gia-tri-cot-loi",
+    linkText: "Tìm hiểu FPT",
   },
 ];
 
 export const policies = [
   {
     title: "Độc lập dân tộc - quyền thiêng liêng, bất khả xâm phạm",
-    text: "Độc lập, tự do không chỉ là quyền của con người mà còn là quyền thiêng liêng của mỗi dân tộc. Các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do.",
-    image: "/images/NiemTin.jpg",
+    text: "Độc lập, tự do không chỉ là quyền của con người mà còn là quyền thiêng liêng của mỗi dân tộc. Các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do. Đây là đóng góp lý luận đặc biệt quan trọng của Hồ Chí Minh.",
+    image: "/images/doclap.jpg",
   },
   {
     title: "Độc lập phải gắn liền với tự do, hạnh phúc của nhân dân",
-    text: "Độc lập không phải đích đến cuối cùng, mà là tiền đề để nhân dân được hưởng tự do, ấm no và hạnh phúc. 'Nước độc lập mà dân không hưởng hạnh phúc tự do, thì độc lập cũng chẳng có nghĩa lý gì.'",
-    image: "/images/giaoluu.jpg",
+    text: "Độc lập không phải đích đến cuối cùng, mà là tiền đề để nhân dân được hưởng tự do, ấm no và hạnh phúc. 'Nước độc lập mà dân không hưởng hạnh phúc tự do, thì độc lập cũng chẳng có nghĩa lý gì.' Nhân dân chỉ thực sự cảm nhận được giá trị của độc lập khi họ được ăn no, mặc ấm, được học hành và làm chủ xã hội.",
+    image: "/images/dieuhanh.jpg",
   },
   {
     title: "Độc lập thật sự, hoàn toàn và triệt để",
-    text: "Độc lập phải là độc lập hoàn toàn, thể hiện trên tất cả các phương diện: chính trị, kinh tế, quân sự, ngoại giao và chủ quyền lãnh thổ. Kiên quyết bác bỏ mọi hình thức độc lập giả hiệu, 'tự trị' nửa vời.",
-    image: "/images/TinDo.jpg",
+    text: "Độc lập phải là độc lập hoàn toàn, thể hiện trên tất cả các phương diện: chính trị, kinh tế, quân sự, ngoại giao và chủ quyền lãnh thổ. Kiên quyết bác bỏ mọi hình thức độc lập giả hiệu, 'tự trị' nửa vời. Việt Nam phải có quyền quyết định trên mọi mặt.",
+    image: "/images/tudo.jpg",
   },
   {
     title: "Cách mạng giải phóng dân tộc - con đường tất yếu",
-    text: "Muốn cứu nước và giải phóng dân tộc không có con đường nào khác con đường cách mạng vô sản. Cách mạng là sự nghiệp của toàn dân, trong đó công - nông là gốc, đồng thời phải đoàn kết mọi tầng lớp yêu nước.",
-    image: "/images/NhanSu.jpg",
+    text: "Muốn cứu nước và giải phóng dân tộc không có con đường nào khác con đường cách mạng vô sản. Cách mạng là sự nghiệp của toàn dân, trong đó công - nông là gốc, đồng thời phải đoàn kết mọi tầng lớp yêu nước, thực hiện phương châm 'thêm bạn, bớt thù'.",
+    image: "/images/cachmang.jpg",
   },
   {
     title: "Chủ nghĩa xã hội - con đường phát triển tất yếu của dân tộc",
-    text: "Chủ nghĩa xã hội là xã hội 'Dân giàu, nước mạnh, công bằng, dân chủ, văn minh.' Đó là xã hội do nhân dân làm chủ, có nền kinh tế phát triển cao, không còn áp bức bóc lột, con người được phát triển toàn diện.",
-    image: "/images/phapluat.jpg",
+    text: "Chủ nghĩa xã hội là xã hội 'Dân giàu, nước mạnh, công bằng, dân chủ, văn minh.' Đó là xã hội do nhân dân làm chủ, có nền kinh tế phát triển cao, không còn áp bức bóc lột, con người được phát triển toàn diện. Mục tiêu cao nhất là con người mới xã hội chủ nghĩa, vừa 'hồng' về đạo đức, vừa 'chuyên' về năng lực.",
+    image: "/images/chunghia.jpg",
   },
 ];
 
@@ -179,8 +177,8 @@ export const vnFeatures = [
 // Hình ảnh cho phần tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội (có thể dùng 1 hoặc nhiều ảnh)
 export const vnFeaturesImage = "/images/tu-tuong-ho-chi-minh.jpg";
 export const vnFeaturesImages = [
-  "/images/PhatGiao.jpg",
-  "/images/ThienChua.jpg", 
-  "/images/CaoDai.jpg",
-  "/images/BaLaMon.jpg",
+  "/images/chinhtri.jpg",
+  "/images/treem.jpg",
+  "/images/chutich.jpg",
+  "/images/tamnhin.jpg",
 ];

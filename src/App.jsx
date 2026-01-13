@@ -196,8 +196,12 @@ function App() {
             II. TƯ TƯỞNG HỒ CHÍ MINH VỀ CHỦ NGHĨA XÃ HỘI
           </div>
           <h2>Đặc trưng của chủ nghĩa xã hội</h2>
+          <p>
+            Chủ nghĩa xã hội theo quan niệm của Hồ Chí Minh là xã hội "dân giàu, nước mạnh, công bằng, dân chủ, văn minh". 
+            Đó là xã hội do nhân dân làm chủ, có nền kinh tế phát triển cao, không còn áp bức bóc lột, con người được phát triển toàn diện.
+          </p>
         </div>
-        <div className="grid three">
+        <div className="grid adaptive">
           {characteristics.map((item, index) => (
             <div
               key={item.title}
@@ -235,13 +239,12 @@ function App() {
       <section className="panel" id="principles">
         <div className="section-head animate-on-scroll">
           <div className="eyebrow">
-            III. HỆ TƯ DUY MỚI CHO THẾ HỆ TRẺ VIỆT NAM
+            III. SỰ SÁNG TẠO ĐỘT PHÁ TRONG TƯ TƯỞNG HỒ CHÍ MINH
           </div>
-          <h2>Bản lĩnh - Sáng tạo - Cống hiến</h2>
+          <h2>Về cách mạng giải phóng dân tộc</h2>
           <p>
-            Trong bối cảnh toàn cầu hóa và kỷ nguyên số, thế hệ trẻ Việt Nam cần
-            trang bị hệ tư duy vững vàng kết hợp giữa triết lý truyền thống và
-            hơi thở thời đại.
+            Trong lịch sử tư tưởng chính trị thế giới, hiếm có nhà cách mạng nào kết hợp nhuần nhuyễn giữa lý luận khoa học và thực tiễn sinh động như Chủ tịch Hồ Chí Minh. 
+            Tính sáng tạo độc đáo trong tư tưởng của Người chính là chìa khóa mở ra con đường thắng lợi cho cách mạng Việt Nam.
           </p>
         </div>
         <div className="animate-on-scroll">
@@ -252,13 +255,12 @@ function App() {
       <section className="panel" id="vietnam">
         <div className="section-head animate-on-scroll">
           <div className="eyebrow">
-            IV. GƯƠNG MẶT TIÊU BIỂU VÀ CÂU CHUYỆN THÀNH CÔNG
+            IV. NHỮNG TẤM GƯƠNG SÁNG THỜI ĐẠI
           </div>
-          <h2>A. Những tấm gương sáng của thế hệ trẻ</h2>
+          <h2>A. Vận dụng tư tưởng Hồ Chí Minh trong thực tiễn</h2>
           <p>
-            Những câu chuyện thành công từ các cá nhân và tập thể không chỉ là
-            ánh hào quang của riêng họ, mà là những tấm gương phản chiếu khát
-            vọng vươn mình của cả một thế hệ.
+            Nếu sự sáng tạo của Bác là 'chìa khóa' mở ra độc lập cho dân tộc, thì bài học ấy chính là 'kim chỉ nam' cho thanh niên chúng ta trong kỷ nguyên số. 
+            Đây không chỉ là sự kế thừa tinh thần độc lập, tự chủ của Bác, mà còn có những bài học sống động được đúc kết từ chính những 'người thật, việc thật'.
           </p>
         </div>
         <div className="card highlight animate-on-scroll">
@@ -324,17 +326,22 @@ function App() {
             </div>
           )}
           <h3>
-            Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội - Ngọn
-            đuốc soi đường
+            Tư tưởng Hồ Chí Minh - Kim chỉ nam cho thế hệ trẻ Việt Nam
           </h3>
           <ul className="bullet-list">
             {vnFeatures.map((item) => (
               <li key={item}>{item}</li>
             ))}
           </ul>
+          <div style={{ marginTop: "24px", padding: "20px", background: "rgba(196, 30, 58, 0.05)", borderRadius: "12px", borderLeft: "4px solid var(--primary)" }}>
+            <p style={{ fontStyle: "italic", color: "var(--text-secondary)", margin: 0 }}>
+              "Năm câu chuyện, năm lĩnh vực khác nhau, nhưng đều gặp gỡ ở một điểm: Đó là sự vận dụng sáng tạo tinh thần Hồ Chí Minh vào thời đại mới. 
+              Họ chính là những người đang viết tiếp trang sử vàng của dân tộc."
+            </p>
+          </div>
         </div>
 
-        <div className="grid adaptive">
+        <div className="grid adaptive center-last">
           {reality.map((item, index) => (
             <div
               key={item.title}
@@ -383,10 +390,14 @@ function App() {
       <section className="panel">
         <div className="section-head animate-on-scroll">
           <div className="eyebrow">
-            B. Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội - Kim
-            chỉ nam cho cách mạng Việt Nam
+            B. Tư tưởng Hồ Chí Minh - Kim chỉ nam cho cách mạng Việt Nam
           </div>
           <h2>Kết luận</h2>
+          <p>
+            Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội không chỉ là di sản lý luận vô giá, 
+            mà còn là kim chỉ nam cho con đường phát triển của cách mạng Việt Nam. Trong mọi giai đoạn lịch sử, 
+            tư tưởng ấy vẫn giữ nguyên giá trị thời đại, tiếp tục soi đường cho sự nghiệp xây dựng và bảo vệ Tổ quốc.
+          </p>
         </div>
         <div className="policy-flow">
           {policies.map((item, idx) => (
